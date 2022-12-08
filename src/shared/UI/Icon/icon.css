@@ -1,0 +1,132 @@
+.icon {
+  display: inherit;
+}
+
+.s28 svg {
+  height: 28px;
+  width: 28px;
+}
+
+.s20 svg {
+  height: 20px;
+  width: 20px;
+}
+
+.s16 svg {
+  height: 16px;
+  width: 16px;
+}
+
+.s14 svg {
+  height: 14px;
+  width: 14px;
+}
+
+.s12 svg {
+  height: 12px;
+  width: 12px;
+}
+
+.s10 svg {
+  height: 10px;
+  width: 10px;
+}
+
+@media all and (min-width: 320px) and (max-width: 1023px) {
+  .m28 svg {
+    height: 28px;
+    width: 28px;
+  }
+
+  .m20 svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .m16 svg {
+    height: 16px;
+    width: 16px;
+  }
+
+  .m14 svg {
+    height: 14px;
+    width: 14px;
+  }
+
+  .m12 svg {
+    height: 12px;
+    width: 12px;
+  }
+
+  .m10 svg {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1539px) {
+  .t28 svg {
+    height: 28px;
+    width: 28px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .t20 svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .t16 svg {
+    height: 16px;
+    width: 16px;
+  }
+
+  .t14 svg {
+    height: 14px;
+    width: 14px;
+  }
+
+  .t12 svg {
+    height: 12px;
+    width: 12px;
+  }
+
+  .t10 svg {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .d28 svg {
+    height: 28px;
+    width: 28px;
+  }
+
+  .d20 svg {
+    height: 20px;
+    width: 20px;
+  }
+
+  .d16 svg {
+
+    height: 16px;
+    width: 16px;
+  }
+
+  .d14 svg {
+    height: 14px;
+    width: 14px;
+  }
+
+  .d12 svg {
+    height: 12px;
+    width: 12px;
+  }
+
+  .d10 svg {
+    height: 10px;
+    width: 10px;
+  }
+}
