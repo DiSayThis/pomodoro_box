@@ -1,4 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('./shared/assets/fonts/SFUIDisplay-Thin.woff') format('woff'),
+    url('./shared/assets/fonts/SFUIDisplay-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('./shared/assets/fonts/SFUIDisplay-Light.woff') format('woff'),
+    url('./shared/assets/fonts/SFUIDisplay-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('./shared/assets/fonts/SFUIDisplay-Regular.woff') format('woff'),
+    url('./shared/assets/fonts/SFUIDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('./shared/assets/fonts/SFUIDisplay-Medium.woff') format('woff'),
+    url('./shared/assets/fonts/SFUIDisplay-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('SF UI Display'),
+    url('./shared/assets/fonts/SFUIDisplay-Bold.woff') format('woff'),
+    url('./shared/assets/fonts/SFUIDisplay-Bold.woff2') format('woff2');
+}
 
 :root {
   --black: #333333;
@@ -21,7 +69,7 @@ body {
   background-color: var(--white);
   font-size: 14px;
   line-height: 16px;
-  font-family: 'Roboto', serif;
+  font-family: 'SF UI Display', sans-serif;
 }
 
 * {
